@@ -97,10 +97,6 @@ angular.module('todomvc')
             store.delete(todo);
         };
 
-        $scope.starTodo = function (todo) {
-            todo.favorite = true;
-        };
-
         $scope.toggleCompleted = function (todo, completed) {
             if (angular.isDefined(completed)) {
                 todo.completed = completed;

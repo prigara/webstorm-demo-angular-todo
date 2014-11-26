@@ -35,7 +35,6 @@
                                ng-change="toggleCompleted(todo)">
                         <label ng-dblclick="editTodo(todo)">{{todo.title}}</label>
                         <button class="destroy" ng-click="removeTodo(todo)"></button>
-                        <button class="star" ng-click="starTodo(todo)"></button>
                     </div>
                     <form ng-submit="saveEdits(todo, 'submit')">
                         <input class="edit" ng-trim="false" ng-model="todo.title" todo-escape="revertEdits(todo)"
