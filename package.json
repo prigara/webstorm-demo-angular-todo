@@ -1,20 +1,24 @@
 {
-  "name": "todomvc",
-  "version": "0.1.1",
-  "devDependencies": {
-    "del": "^0.1.1",
-    "gulp": "^3.8.5",
-    "gulp-cache": "^0.2.0",
-    "gulp-csso": "^0.2.9",
-    "gulp-if": "^1.2.1",
-    "gulp-load-plugins": "^0.7.0",
-    "gulp-minify-html": "^0.1.4",
-    "gulp-ng-annotate": "^0.3.6",
-    "gulp-rename": "^1.2.0",
-    "gulp-replace": "^0.4.0",
-    "gulp-size": "^1.0.0",
-    "gulp-uglify": "^1.0.1",
-    "gulp-useref": "^1.0.2",
-    "run-sequence": "^1.0.1"
-  }
+    "name": "todomvc",
+    "version": "0.1.1",
+    "devDependencies": {
+        "del": "^0.1.1",
+        "gulp": "^3.8.5",
+        "gulp-cache": "^0.2.0",
+        "gulp-csso": "^0.2.9",
+        "gulp-if": "^1.2.1",
+        "gulp-load-plugins": "^0.7.0",
+        "gulp-minify-html": "^0.1.4",
+        "gulp-ng-annotate": "^0.3.6",
+        "gulp-rename": "^1.2.0",
+        "gulp-replace": "^0.4.0",
+        "gulp-size": "^1.0.0",
+        "gulp-uglify": "^1.0.1",
+        "gulp-useref": "^1.0.2",
+        "run-sequence": "^1.0.1",
+        "karma": "latest",
+        "karma-jasmine": "0.2",
+        "karma-chrome-launcher": "latest",
+        "karma-firefox-launcher": "latest"
+    }
 }
