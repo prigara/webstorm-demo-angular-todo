@@ -32,8 +32,7 @@ angular.module('todomvc')
         $scope.addTodo = function () {
             var newTodo = {
                 title: $scope.newTodo.trim(),
-                completed: false,
-                favorite: false
+                completed: false
             };
 
             if (!newTodo.title) {
