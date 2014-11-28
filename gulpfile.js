@@ -13,8 +13,6 @@ gulp.task('html', function () {
         .pipe(assets)
         // Concatenate And Minify JavaScript with ng-annotate
         .pipe($.if('*.js', $.ngAnnotate()))
-        .pipe($.uglify())
-        //.pipe($.if('*.js', $.uglify()))
         // Concatenate And Minify Styles
         .pipe($.if('*.css', $.csso()))
         .pipe(assets.restore())
