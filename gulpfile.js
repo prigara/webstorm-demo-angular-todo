@@ -17,10 +17,7 @@ gulp.task('html', function () {
         .pipe($.if('*.css', $.csso()))
         .pipe(assets.restore())
         .pipe($.useref())
-        // Minify Any HTML
-        .pipe($.if('*.html', $.minifyHtml()))
-        .pipe(gulp.dest('dist'))
-        .pipe($.size({title: 'html'}));
+        .pipe(gulp.dest('dist'));
 });
 
 // Clean Output Directory
